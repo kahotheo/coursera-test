@@ -1,3 +1,3 @@
 # coursera-test
 Coursera test repository
-This is not the main branch.
+This is the main branch.
