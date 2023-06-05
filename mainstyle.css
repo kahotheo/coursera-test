@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: azure;
+    background-color: white;
     margin-left: 10px;
     margin-right: 10px;
     min-width: 500px;
@@ -12,8 +12,13 @@ body {
 
 section {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
+    margin: 10px;
+    background-color: rgba(251, 251, 251, 0.8);
+    border-right: solid rgb(228, 226, 226);
+    border-bottom: solid rgb(228, 226, 226);
+    border-radius: 8px;
+    position: relative;
+
 }
 
 footer {
@@ -26,6 +31,13 @@ ul {
     list-style: '- ';
 }
 
+h1 {
+    font-size: 175%;
+}
+
+h2 {
+    font-size: 125%;
+}
 /******** ID modifier *********/
 
 
