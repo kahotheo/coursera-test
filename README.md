@@ -1,5 +1,6 @@
 # This is Ricky's Github page!
 **Thank you for coming to my page.**
+
 This is my own repository directory.
 
 You can view the index.html by clicking the [link](https://kahotheo.github.io).
