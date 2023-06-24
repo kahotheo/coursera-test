@@ -1,93 +1,246 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- Doc type declare -->
+
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Assignment Solution for Module 3</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/boostrap.css">
-        <link rel="stylesheet" href="css/boostrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+  <!-- Head section -->
+  <head>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale= 1">
 
-    <body>
-        <!-- jQuery (Bootstrap JS plugins depend on it) -->
-        <script src="js/jquery-1.11.3.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
-
-        <!-- 
-        md classes = Desktop mockup
-        sm classes = Tablet mockup
-        xs classes = mobile mockup 
-        -->
-
-        <!-- Start of the body. -->
-        <header>
-            <!--
-            To do
-            Navbar
-            - scrolls away together with the page (the navbar should become 
-            invisible and is not fixed to the top when you scroll the page down)
-
-            - The navbar should have a company name (i.e., navbar-brand class) 
-            called "Food, LLC" that is aligned to the left side of the navbar.
-
-            - Make the browser window narrower to see the mobile menu button 
-            appear in the first example shown at the provided link.) For desktop
-            and tablet view, the navbar should not contain anything else. No 
-            other buttons should be visible. (Hint: use 'visible-xs' class.)
-            
-            - Mobile View: Create a simple menu button (3 horizontal bars). 
-            When the user clicks that button, a dropdown menu should appear (as 
-            illustrated in Mobile Open Menu illustration below.) The dropdown 
-            menu should contain 3 items: Chicken, Beef, and Sushi. The dropdown
-            menu should take up the entire width of the browser window. Make 
-            sure the dropdown menu has a background color set that distinguishes
-            it from the rest of the content.
-            -->
-
-        </header>
-
-        <!--
-            To do
-            Page Heading. The page heading that says Our Menu should be centered
-            within the browser window.
-            - You must use a Bootstrap class to accomplish this.
-        -->
+    <!-- Get Google Open Sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+    rel="stylesheet">
 
 
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <!-- Body section -->
+  <body>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- 
+      md for Desktop
+      sm for Tablet
+      xs for mobile
+    -->
+
+    <!-- Navbar -->
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+
+          <!-- Company name -->
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Food, LLC</h1></a>
+            </div>  
+          
+
+          <!-- Interactive menu button -->
+            <button id="navbarbutton" type="button" 
+            class="navbar-toggle collapsed" 
+            data-toggle="collapse" data-target="#collapsable-nav" 
+            aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            </button>
+          </div>
+          
+          <div id="collapsable-nav" class="collapse navbar-collapse hidden-lg
+          hidden-md hidden-sm">
+            <ul id="nav-list" class="nav navbar-nav navbar-right hidden-lg
+            hidden-md hidden-sm">
+              <li>
+                <a href="#Chicken">Chicken</a>
+              </li>
+              <li>
+                <a href="#Beef">Beef</a>
+              </li>
+              <li>
+                <a href="#Takoyaki">Takoyaki</a>
+              </li>
+            </ul>
+          </div>
 
 
 
+        </div>
+      </nav>
+
+    </header>
 
 
+    <!-- Actual body -->
+    <!-- Section header -->
+    <div class="container">
+      <h3 class="text-center">Our menu</h3>
+    </div>
 
+    <div id="Chicken" class="container">
+      <div class="section-container">
+        <p class="section-title">Chicken</p>
+        <p class="section-content">
+          Chicken is soooooo boring. Would you like trying the 
+          next item instead of choosing chicken???? No chicken please 
+          :D What do you want then? Beef???? No!!! Although our next
+          item is Beef... But why beef????? Please do not choose the
+          second item :( What should you choose? Of course, the third
+          one! Takoyaki!!! Try it now!!! :D I want it!!!
+          <br>
+          <br>
+          Don't know what to put here to make this very long. I also don't
+          want to use height to make it unreasonably long and with a lot of
+          empty space. So I just type something useless here. :D
+          <br>
+          <br>
+          I can show you the world
+          <br>
+          Shining, shimmering, splendid
+          <br>
+          Tell me, princess, no when did
+          <br>
+          You last let your heart decide?
+          <br>
+          <br>
+          I can open your eyes
+          <br>
+          Take you wonder by wonder
+          <br>
+          Over, sideways and under
+          <br>
+          On a magic carpet ride
+          <br>
+          <br>
+          A whole new world
+          <br>
+          A new fantastic point of view
+          <br>
+          No one to tell us no
+          <br>
+          Or where to go
+          <br>
+          Or say we're only dreaming
+          <br>
+          <br>
+          A whole new world
+          <br>
+          A dazzling place I never knew
+          <br>
+          But when I'm way up here
+          <br>
+          It's crystal clear
+          <br>
+          That now I'm in a whole new world with you
+          <br>
+          Now I'm in a whole new world with you
+        </p>
+      </div>   
+    </div>
 
+    <br>
 
+    <div id="Beef" class="container">
+      <div class="section-container">
+        <p class="section-title">Beef</p>
+        <p class="section-content">
+          Beef is also sold out!!!! No beef, thanks :) Beef is good,
+          but it is not the best. So, you shouldn't choose to have
+          beef~ Do you know what the best is? I bet you don't. However, 
+          I know what the best is. Takoyaki is the best. If you want to 
+          know more about Takoyaki, please click the link below. It is
+          also our third item. Please get a Takoyaki for me :P!!!!
+          <br>
+          <br>
+          Unbelievable sights
+          <br>
+          Indescribable feeling
+          <br>
+          Soaring, tumbling, freewheeling
+          <br>
+          Through an endless diamond sky
+          <br>
+          <br>
+          A whole new world
+          <br>
+          **** Don't you dare close your eyes
+          <br>
+          A hundred thousand things to see
+          <br>
+          **** Hold your breath - It gets better
+          <br>
+          I'm like a shooting star
+          <br>
+          I've come so far
+          <br>
+          I can't go back to where I used to be
+          <br>
+          <br>
+          **** A whole new world
+          <br>
+          Every turn a surprise
+          <br>
+          **** With new horizons to pursue
+          <br>
+          Every moment red-letter
+          <br>
+          I'll chase them anywhere
+          <br>
+          There's time to spare
+          <br>
+          Let me share this whole new world with you
+        </p>
+      </div>   
+    </div>
 
+    <br>
 
-        <footer>
+    <div id="Takoyaki" class="container">
+      <div class="section-container">
+        <p class="section-title">Takoyaki</p>
+        <p class="section-content">
+          Takoyaki is my favourite food!!! Takoyaki is a Japanese 
+          ball-shaped snack made of wheat flour-based batter and 
+          cooked in a special molded pan. It is typically filled with 
+          minced or diced octopus, tempura scraps, pickled ginger, and
+          green onion. Now you know about Takoyaki. Please order one 
+          or make one for me. Thank you :D
+          <br>
+          <br>
+          A whole new world
+          <br> 
+          That's where we'll be
+          <br>
+          A thrilling chase
+          <br>
+          A wondrous place
+          <br>
+          For you and me
+        </p>
+      </div>   
+    </div>
 
-        </footer>
-    </body>
+    
+  </body>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="container">
+      <br>
+    </div>
+  </footer>
 </html>
