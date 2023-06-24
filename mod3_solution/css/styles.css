@@ -1,0 +1,95 @@
+/*** Universal modifier ***/
+* {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+
+
+/*** Pre-defined Class modifier ***/
+h1 {
+    text-align: left;
+    font-weight: 600;
+    color: black;
+}
+
+h3 {
+
+    font-weight: 700px;
+
+}
+
+header {
+    min-height: 110px;
+}
+
+body {
+    position: relative;
+
+}
+
+footer {
+    text-align: center;
+}
+
+/*** Self-defined Class modifier ***/
+.navbar-brand {
+    font-size: 20px;
+    color: black;
+    height: 110px;
+    text-shadow: 1px 1px 1px #bbbbbb;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+
+}
+
+.section-container {
+    border: 4px;
+    border-radius: 8px;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.section-content {
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+
+}
+
+/*** ID modifier ***/
+#header-nav {
+    background-color: rgba(245, 245, 245, 0.802);
+    border-radius: 0;
+    border: 1px;
+}
+
+#navbarbutton {
+    margin-top: 30px;
+}
+
+
+/* nav-list behaviour */
+#nav-list {
+    text-align: center;
+
+}
+    #nav-list a:hover {
+        color: black;
+    }
+
