@@ -12,6 +12,7 @@ h1 {
     text-align: left;
     font-weight: 600;
     color: black;
+    padding-left: 40px;
 }
 
 h3 {
@@ -42,11 +43,13 @@ footer {
     margin-top: 0;
     margin-bottom: 0;
     position: relative;
+
     
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
+
 
 }
 
