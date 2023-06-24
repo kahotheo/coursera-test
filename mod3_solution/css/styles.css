@@ -12,7 +12,12 @@ h1 {
     text-align: left;
     font-weight: 600;
     color: black;
-    padding-left: 40px;
+}
+
+@media (max-width: 767px) {
+    h1 {
+        padding-left: 40px;
+    }
 }
 
 h3 {
