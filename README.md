@@ -11,4 +11,5 @@ My submission
 
   1. [Module 2 Coding Assignment - Our Menu](https://kahotheo.github.io/mod2_solution/index.html)
   2. [Module 3 Coding Assignment - Food, LLC](https://kahotheo.github.io/mod3_solution/index.html)
+  3. [Module 4 Coding Assignment - JavaScript](https://kahotheo.github.io/mod4_solution/index.html)
 
