@@ -7,6 +7,11 @@ You can view the index.html by clicking the [link](https://kahotheo.github.io).
 
 If you come from Coursera, you might also want to go to the submission directly.
 
+
+## Coursera
+
+### Html, CSS, and JavaScript for Web Development
+
 My submission
 
   1. [Module 2 Coding Assignment - Our Menu](https://kahotheo.github.io/mod2_solution/index.html)
